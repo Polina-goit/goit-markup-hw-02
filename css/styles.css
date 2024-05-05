@@ -36,6 +36,7 @@ body {
     color: #2e2f42;
 }
 .nav-link:hover {color: #404bbf;}
+.nav-link:focus {color: #404bbf;}
 .nav-link:active {
     text-decoration: underline;
     color: #404bbf;}
@@ -54,8 +55,12 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
+    color: #434455
 }
 .communication:hover {
+    color: #404bbf;
+}
+.communication:focus {
     color: #404bbf;
 }
 .section-head {
@@ -63,11 +68,11 @@ body {
 }
 .title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 56px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    
-    color: #2e2f42;
+    text-align: center;
+    color: #ffffff;
 }
 .order {
     font-family: 'Roboto', sans-serif;
@@ -86,7 +91,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #404bbf;
+    background-color: #404bbf;
+    cursor: pointer;
+}
+.order:focus {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #404bbf;
     cursor: pointer;
 }
 .section-title {
@@ -102,7 +117,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
 }
@@ -114,6 +129,15 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     background: #f4f4fd;
+}
+.portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 .title-text {
     font-weight: 700;
